@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
+</head>
+<body class="main">
+    <div id="loginUser">
+        <h1 id="userNameMain"></h1>
+        
+        <ul id="userName">
+
+        </ul>
+        
+        <div id="post">
+            <textarea name="" id="posting" cols="30" rows="10"></textarea><br>
+            <button class="loginUserBtn" onclick="sharePost()">share</button>
+           
+        </div>
+        <div id="share" class="postcolor">
+            <h1 id="sharePost"></h1>
+        </div>
+        <div class="loginUserSetBtn">
+            <button onclick="goAllUsers()" class="loginUserBtn" id="suggestion">Add friends</button>
+            <button class="loginUserBtn" onclick="post()">Post</button>
+            <button class="loginUserBtn" onclick="goSignIn()">logout</button>
+        </div>
+    </div>
+    
+</body>
+</html>

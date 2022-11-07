@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend App</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
+</head>
+<body class="main">
+    <div id="registerPage" class="registerForm">
+        <h1 class="registerHeading">Create Your Friend Book Account</h1>
+        <button onclick="goSignUp()" class="registerBtn">REGISTER</button>
+    </div>
+
+    <div id="signUpPage" class="signUp">
+        <form class="signUpForm" >
+            Full Name: <input id="inputfullName" type="text" placeholder="user name"><br><br>
+            Profile(URL): <input id="inputProfile" type="tex" placeholder="https//...."><br><br>
+            Email: <input id="inputEmail" type="email" placeholder="abc@gmail.com"><br><br>
+            Password:  <input id="inputPass" type="password" placeholder="password"><br><br>
+             <button class="registerBtn" onclick="registered()">Create Account</button>
+            <p>You have already account? <a onclick="goSignIn()">login</a></p>
+        </form>
+    </div>
+    
+    <div id="signInPage" class="signIn">
+        <div class="signInForm">
+            Email:     <input id="signInName" type="text" placeholder="Email"><br><br>
+            Password:  <input id="signInPass" type="password" placeholder="Password"><br><br>
+            <button class="registerBtn" onclick="loginUser()">login</button>
+            <p>You have no account? <a onclick="goSignUp()">sign up</a></p>
+        </div>
+
+    </div>
+  
+</body>
+
+</html>

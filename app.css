@@ -1,0 +1,177 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    background-image:url(image/micah-williams-lmFJOx7hPc4-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    font-weight: bold;
+}
+a{
+    cursor: pointer;
+    color: rgb(41, 41, 132);
+}
+p{
+    font-weight: bold;
+}
+.registerHeading{
+    color: rgba(146, 255, 184, 0.623);
+    background-color: black;
+    padding: 10px;
+    border-radius:30px 0px ;
+}
+.registerForm{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.registerBtn:hover{
+    width: 160px;
+    height: 60px;
+    color: aliceblue;
+    background-color: rgb(0, 205, 242);
+}
+.registerBtn{
+    border-radius: 5px 5px;
+    border: 2px solid rgb(41, 208, 214);
+    background-color: rgb(41, 208, 214);
+    color: rgb(32, 48, 48);
+    height: 50px;
+    width: 150px;
+    font-size: medium;
+}
+.signUp, .signIn{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images.jpg);
+    display: none;
+}
+.signUpForm, .signInForm{
+    background-color: rgb(19, 19, 27);
+    opacity: 0.9;
+    color: aliceblue;
+    padding: 30px;
+    font-size: larger;
+    width: 500px;
+    height: 400px;
+    margin: 0% auto;
+    margin-top: 100px;
+}
+#inputfullName{
+    margin-left: 85px;
+    height: 35px;
+    width: 250px;
+    font-size: medium;
+}
+#inputProfile{
+    margin-left: 67px;
+    height: 35px;
+    width: 250px;
+    font-size: medium;
+}
+#inputEmail{
+    margin-left: 125px;
+    height: 35px;
+    width: 250px;
+    font-size: medium;
+}
+#inputPass{
+    margin-left: 90px;
+    height: 35px;
+    width: 250px;
+    font-size: medium;
+}
+#signInName{
+    margin-left: 125px;
+    height: 35px;
+    width: 250px;
+    font-size: medium;
+}
+#signInPass{
+    margin-left: 89px;
+    height: 35px;
+    width: 250px;
+    font-size: medium;
+}
+.signUpBtn{
+    
+    border-radius: 5px 5px;
+    border: 2px solid rgb(41, 208, 214);
+    background-color: rgb(41, 208, 214);
+    color: rgb(32, 48, 48);
+    height: 50px;
+    width: 150px;
+    font-size: medium;
+}
+.listspacing{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: antiquewhite;
+}
+#loginUser{
+    background-color: black;
+    opacity: 0.8;
+    width: 400px;
+    height: 100vh;
+    padding: 20px;
+    margin: 0% auto;
+
+}
+.loginUserSetBtn{
+    display: flex;
+    justify-content: space-around;
+}
+#allUsers{
+    background-color: black;
+    opacity: 0.8;
+    width: 500px;
+    height: 100vh;
+    padding: 20px;
+    margin: 0% auto;
+}
+.loginUserBtn{
+    height: 40px;
+    width: 100px;
+    background-color: #0a0092;
+    color: rgb(12, 238, 65);
+    border-radius: 10px 10px;
+}
+.loginUserBtn:hover{
+    width: 110px;
+    height: 45px;
+    color: rgb(12, 238, 65);
+}
+#userNameMain{
+    color: #faebd7;
+}
+.post{
+    display: flex;
+    justify-content: center;
+}
+#post{
+    display: none;
+}
+.postcolor{
+    display: none;
+    color: whitesmoke;
+}
+#posting{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    color: black;
+    font-size: xx-large;
+}
+.backgrond{
+    border:  5px solid green;
+    width: 320px;
+    height: 270px;
+    padding: 40px;
+}
